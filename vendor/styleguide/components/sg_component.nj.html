@@ -1,5 +1,6 @@
-{% macro component(modifier='') %}
+{% macro component(title='') %}
 <li class="component">
+  <h3>{{title}}</h3>
   {{ caller() }}
 </li>
 {% endmacro %}

@@ -10,10 +10,10 @@
     <ul class="component_list">
       {% for name, component in components %}
 
-        {% call sg.component() %}
+        {% call sg.component(name) %}
           {{ component.content }}
         {% endcall %}
-        
+
       {% endfor %}
     </ul>
 
