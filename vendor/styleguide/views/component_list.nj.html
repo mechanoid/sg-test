@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  {% block component_list %}
+
+    <ul class="component_list">
+      {% for name, component in components %}
+
+        {% call sg.component() %}
+          {{ component.content }}
+        {% endcall %}
+        
+      {% endfor %}
+    </ul>
+
+  {% endblock %}
+</body>
+</html>

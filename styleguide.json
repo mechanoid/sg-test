@@ -1,0 +1,8 @@
+{
+  "project": {
+    "pathes": [
+      "./components"
+      , "./some_other"
+    ]
+  }
+}

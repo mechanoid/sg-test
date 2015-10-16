@@ -1,0 +1,5 @@
+{% macro panel(modifier='') %}
+<div class="panel {{modifier}}">
+  {{ caller() }}
+</div>
+{% endmacro %}

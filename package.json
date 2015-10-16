@@ -1,0 +1,23 @@
+{
+  "name": "sg-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Falk Hoppe <falkhoppe81@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-data": "^1.2.0",
+    "gulp-nunjucks": "^2.0.0",
+    "gulp-nunjucks-html": "^2.0.0",
+    "gulp-prettify": "^0.3.0",
+    "gulp-print": "^2.0.1",
+    "gulp-util": "^3.0.6",
+    "gulp-wrap": "^0.11.0",
+    "through2": "^2.0.0"
+  }
+}

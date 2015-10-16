@@ -1,0 +1,10 @@
+{% macro panel_header(modifier='') %}
+<header class="panel-header {{modifier}}">
+</header>
+{% endmacro %}
+
+{% macro panel(modifier='') %}
+<div class="panel {{modifier}}">
+  {{ caller() }}
+</div>
+{% endmacro %}
